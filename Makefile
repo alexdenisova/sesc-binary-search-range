@@ -1,7 +1,7 @@
-run: lin
-	./lin
+run: bin
+	./bin
 
-lin: lin.c
-	gcc -Wall -std=c11 lin.c -o lin
+bin: bin.c
+	gcc -Wall -std=c11 bin.c -o bin
 
-build: lin
+build: bin
